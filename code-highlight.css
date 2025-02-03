@@ -1,0 +1,76 @@
+/*!
+  Theme: Default
+  Description: Original highlight.js style
+  Author: (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+  Maintainer: @highlightjs/core-team
+  Website: https://highlightjs.org/
+  License: see project LICENSE
+  Touched: 2021
+*/
+.ms-highlight-body pre code.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 1em
+}
+
+.ms-highlight-body code.hljs {
+	padding: 3px 5px
+}
+
+.ms-highlight-body .hljs {
+	background: #f3f3f3;
+	color: #444
+}
+
+.ms-highlight-body .hljs-comment {
+	color: #697070
+}
+
+.ms-highlight-body .hljs-punctuation,.hljs-tag {
+	color: #444a
+}
+
+.ms-highlight-body .hljs-tag .hljs-attr,.hljs-tag .hljs-name {
+	color: #444
+}
+
+.ms-highlight-body .hljs-attribute,.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-name,.hljs-selector-tag {
+	font-weight: 700
+}
+
+.ms-highlight-body .hljs-deletion,.hljs-number,.hljs-quote,.hljs-selector-class,.hljs-selector-id,.hljs-string,.hljs-template-tag,.hljs-type {
+	color: #800
+}
+
+.ms-highlight-body .hljs-section,.hljs-title {
+	color: #800;
+	font-weight: 700
+}
+
+.ms-highlight-body .hljs-link,.hljs-operator,.hljs-regexp,.hljs-selector-attr,.hljs-selector-pseudo,.hljs-symbol,.hljs-template-variable,.hljs-variable {
+	color: #ab5656
+}
+
+.ms-highlight-body .hljs-literal {
+	color: #695
+}
+
+.ms-highlight-body .hljs-addition,.hljs-built_in,.hljs-bullet,.hljs-code {
+	color: #397300
+}
+
+.ms-highlight-body .hljs-meta {
+	color: #1f7199
+}
+
+.ms-highlight-body .hljs-meta .hljs-string {
+	color: #38a
+}
+
+.ms-highlight-body .hljs-emphasis {
+	font-style: italic
+}
+
+.ms-highlight-body .hljs-strong {
+	font-weight: 700
+}
